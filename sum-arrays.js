@@ -1,0 +1,26 @@
+// Instructions
+
+// Examples
+// Input: [1, 5.2, 4, 0, -1]
+// Output: 9.2
+
+// Input: []
+// Output: 0
+
+// Input: [-2.398]
+// Output: -2.398
+
+// Assumptions
+// You can assume that you are only given numbers.
+// You cannot assume the size of the array.
+// You can assume that you do get an array and if the array is empty, return 0.
+
+// My Solution 
+
+function sum (numbers) {
+    let output = 0;
+    numbers.map(x => output += x);
+    return output;
+    
+    
+};
